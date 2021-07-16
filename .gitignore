@@ -1,0 +1,104 @@
+# Logs
+Logs
+*.log
+npm-depuração.log*
+fio-depuração.log*
+erro de fio.log*
+lerna-depura.log*
+
+# Relatórios de diagnóstico (https://nodejs.org/api/report.html)
+relatório. [0-9] Eu nãosei o que fazer. [0-9] Eu nãosei o que fazer. [0-9] Eu nãosei o que fazer. [0-9] *.json
+
+# Dados de tempo de execução
+pids
+*.pid
+*.semente
+*.pid.lock
+
+# Diretório de libs instrumentados gerado pela jscoverage/JSCover
+lib-cov
+
+# Diretório de cobertura usado por ferramentas como istambul
+cobertura
+*.lcov
+
+# nyc cobertura de teste
+.nyc_output
+
+# Armazenamento intermediário grunhido (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunhido
+
+# Diretório de dependência de Bower (https://bower.io/)
+bower_components
+
+# configuração nóde-waf
+.lock-wscript
+
+# Addons binários compilados (https://nodejs.org/api/addons.html)
+construir/Liberar
+
+# Diretórios de dependência
+node_modules/
+jspm_packages/
+
+# Arquivos de declaração TypeScript v1
+digitações/
+
+# Cache TypeScript
+*.tsbuildinfo
+
+# Diretório opcional de cache npm
+.npm
+
+# Cache eslint opcional
+.eslintcache
+
+# Cache de microempaco
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Histórico opcionais de REPL
+.node_repl_history
+
+# Saída do 'npm pack'
+*.tgz
+
+# Arquivo Yarn Integrity
+.yarn-integrity
+
+# arquivo de variáveis de ambiente dotenv
+.env
+.env.test
+
+# cache de pacote de encomendas (https://parceljs.org/)
+.cache
+
+# Próxima.js construir saída
+.next
+
+# Nuxt.js construir / gerar saída
+.nuxt
+Dist
+
+# Arquivos Gatsby
+.cache/
+# Comente na linha pública se o seu projeto usa Gatsby e *not* Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# vuepress construir saída
+.vuepress/dist
+
+# Diretórios sem servidor
+.serverless/
+
+# Cache FuseBox
+.fusebox/
+
+# Arquivos locais dynamoDB
+.dynamodb/
+
+# Arquivo de porta TernJS
+.tern-port
